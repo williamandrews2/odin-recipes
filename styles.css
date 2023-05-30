@@ -1,26 +1,36 @@
 * {
-    background-color: dimgray;
+    background-color: darkslateblue;
 }
 
 .pageTitle {
-    background-color: darkslateblue;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     font-size: 78px;
     width: 600px;
     height: auto;
-    box-sizing: border-box;
+    
     margin: auto;
+    border: 5px solid yellow;
 }
 
 .recipe {
-    text-align: center;
-    color: purple;
     font-size: 30px;
-    display: flex;
+    display: block;
+    text-align: center;
 }
 
 a {
     color: white;
-    
+    background-color: black;
+    padding: 5px;
+    border: 3px solid white;
+    display: inline-block;
+    margin: 10px auto;
+    text-decoration: none;
+    width: 600px;
+}
+
+.recipeList {
+    padding: 0px;
 }
