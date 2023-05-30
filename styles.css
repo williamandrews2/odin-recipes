@@ -1,0 +1,26 @@
+* {
+    background-color: dimgray;
+}
+
+.pageTitle {
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    font-size: 78px;
+    width: 600px;
+    height: auto;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.recipe {
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+    display: flex;
+}
+
+a {
+    color: white;
+    
+}
